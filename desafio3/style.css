@@ -1,0 +1,36 @@
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cor {
+width: 100px;
+height: 100px;
+border-radius: 8px;
+transition: transform 0.2s;
+box-shadow:0 0 5px  rgba(228, 164, 36, 0.724);
+}
+
+.cor:hover { transform: scale(1.1); }
+
+.cor1{
+    background-color: red;  
+}
+.cor2{
+    background-color: rgb(16, 14, 151);
+}
+.cor3{
+     background-color: rgb(143, 132, 12);
+}
+.cor4{
+    background-color: rgb(172, 35, 97);
+}
+.cor5{
+     background-color: rgb(106, 5, 5);
+}
+.cor6{
+     background-color: rgb(147, 221, 113);
+}
