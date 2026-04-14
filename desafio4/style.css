@@ -1,0 +1,23 @@
+nav{
+    background-color: rgba(87, 210, 187, 0.799);
+    padding: 20px;
+    border: 6px;
+    border-radius: 5px;
+}
+
+nav ul{
+    display:flex;
+    list-style: none;
+    gap: 10px;
+     
+}
+nav a{
+    text-decoration: none;
+    padding: 15px 20px;
+  
+}
+
+nav a:hover{
+    background-color: rgb(34, 122, 122);
+     border-radius: 5px;
+}
